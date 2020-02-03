@@ -9,7 +9,7 @@ This library aims at helping with migrations from RxJava to Flows and otherwise:
 - **Channels** - convertion of `Channel`/`BroadcastChannel` to `Observable` and otherwise
 - **Coroutines**
   - convertion of `Job`/`Deferred` to RxJava types (`Completable`, `Observable`, etc.)
-  - wait for `Completable`, `Observable`, etc. completion in `susped` function
+  - wait for `Completable`, `Observable`, etc. completion in `suspend` function
 
 # Example
 
