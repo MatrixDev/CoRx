@@ -1,0 +1,3 @@
+include ':CoRx'
+
+rootProject.name='CoRxProject'
