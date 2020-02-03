@@ -31,7 +31,7 @@ Simple `Single` to `Flow` convertion:
 suspend fun doSomeWork() {
   val single = Single.just(1)
 
-  single.toFlow()
+  single.toFlow() // <-- Single to Flow here
     .map { it * 2 }
     .collect { print(it) }
 }
